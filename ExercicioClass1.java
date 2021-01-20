@@ -7,6 +7,7 @@ public class ExercicioClass1 {
     boolean civic = true;
     String carro;
     public static String cor;
+
     static void calculoDoMotor(int veloc) {
 
         //escolher entre 1.0, 1.6 ou 2.0
@@ -29,9 +30,8 @@ public class ExercicioClass1 {
             carro = "Gol";
         }
         //String motor
-        System.out.println("O carro escolhido é um "+ carro+", " + motor+", "+cor);
-        
-        
+        System.out.println("O carro escolhido é um " + carro + ", " + motor + ", " + cor);
+
     }
 
     public static void main(String[] args) {
@@ -39,13 +39,13 @@ public class ExercicioClass1 {
         Scanner meuObjeto = new Scanner(System.in); //criado o objeto do input
 
         System.out.println("O carro sera escolhido baseado nas escolhas:"
-                +"\n"+ "*Modelo"
-                +"\n"+ "*Velocidade"
-                +"\n"+ "*Novo/Semi-Novo");
+                + "\n" + "*Modelo"
+                + "\n" + "*Velocidade"
+                + "\n" + "*Novo/Semi-Novo");
         //MODELO
         System.out.println("Escolha o modelo:"
-                +"\n"+ "1-Economico/Gol"
-                +"\n"+ "2-Conforto/Civic");
+                + "\n" + "1-Economico/Gol"
+                + "\n" + "2-Conforto/Civic");
         int opcao = Integer.parseInt(meuObjeto.nextLine());
         switch (opcao) {
             case 1:
@@ -66,11 +66,11 @@ public class ExercicioClass1 {
 
         //COR 
         System.out.println("Digite a cor que deseja em seu carro:");
-        
+
         cor = meuObjeto.nextLine(); //le o input usado
         //MONTAGEM 
-        ExercicioClass1 meuObjeto1 = new ExercicioClass1 ();
+        ExercicioClass1 meuObjeto1 = new ExercicioClass1();
         meuObjeto1.montagemDoCarro();
-        
+
     }
 }

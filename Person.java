@@ -6,8 +6,8 @@
 
 /**
  *
- * @author dannn
+ * @author Daniel
  */
-public class Constructors {
+public class Person {
     
 }
