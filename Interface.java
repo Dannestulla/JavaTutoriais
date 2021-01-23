@@ -6,8 +6,8 @@
 
 /**
  *
- * @author Daniel
+ * @author dannn
  */
-public class Person {
+public class Interface {
     
 }

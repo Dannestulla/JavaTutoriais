@@ -20,7 +20,7 @@ public class Encapsulation {
         return nome;
     }
 
-    public void setNome(String novoNome) {
+    public void setNome(String novoNome) { //void pq não retorna nada
         this.nome = novoNome;
 
     }

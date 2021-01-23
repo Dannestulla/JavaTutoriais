@@ -1,6 +1,3 @@
-//Constructors são usados para criarem objetos de classes já com pré-determinados atributos
-//Se não for criada uma, o Java cria automaticamente
-//SEMPRE USAR APENAS UMA CLASSE PARA CADA ARQUIVO E O NOME DO ARQUIVO DEVE TER O NOME DA CLASSE
 
 public class Constructors1 {
 
